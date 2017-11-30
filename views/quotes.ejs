@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>All Quotes</title>
+    </head>
+    <body>
+        <h1>All Quotes</h1>
+        <% for (let quote of quotes) { %>
+            <p><%= quote.quote %> - <%= quote.name %></p>
+        <% } %>
+        <a href="/">Home</a>
+    </body>
+</html>
